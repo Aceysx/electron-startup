@@ -1,7 +1,6 @@
 const {app, BrowserWindow} = require('electron')
 const isDev = require('electron-is-dev')
 const path = require('path')
-require('./main-process/listener')
 let win
 
 const createWindow = () => {
@@ -9,8 +8,7 @@ const createWindow = () => {
     show: false,
     webPreferences: {
       nodeIntegration: true
-    },
-    titleBarStyle: 'hiddenInset'
+    }
   })
   win.maximize()
 

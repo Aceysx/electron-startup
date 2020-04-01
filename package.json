@@ -29,7 +29,7 @@
     "build:mac": "npm run build:copy && npm run pack:mac"
   },
   "build": {
-    "productName": "AceNote",
+    "productName": "electron-startup",
     "extends": null,
     "files": [
       "build/**/*"
