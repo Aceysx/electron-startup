@@ -1,0 +1,28 @@
+.title-icon {
+    font-size: 16px;
+    color: rgba(25, 23, 17, 0.5);
+    display: inline-block;
+    padding: 0px 4px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.title-icon:hover {
+    background: rgba(25, 23, 17, 0.1);
+}
+
+.title-bar-box{
+    background: white;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    height: 35px;
+    line-height: 35px;
+}
+.title-bar-menu-item{
+    padding: 4px;
+    border-radius: 5px;
+}
+.title-bar-menu-item:hover{
+    background: rgba(25, 23, 17, 0.1);
+}
